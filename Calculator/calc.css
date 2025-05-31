@@ -1,0 +1,33 @@
+body {
+    background-color: black;
+}
+
+.main {
+    margin-top: 20%;
+    text-align: center;
+    align-items: center;
+}
+
+input {
+    border-radius: 20px;
+    padding: 12px;
+}
+
+#operator {
+    width: 12px;
+    text-align: center;
+    border-radius: 15px;
+    background-color: darkblue;
+    color: white;
+}
+
+h1 {
+    color: white;
+}
+
+button {
+    padding: 12px;
+    border-radius: 15px;
+    background-color: darkblue;
+    color: white;
+}

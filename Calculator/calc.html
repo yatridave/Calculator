@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calc.css">
+    <title>calculator</title>
+</head>
+
+<body>
+
+    <div class="main">
+
+        <h1>Simple Arithmetic Calculator</h1>
+
+        <!-- Input fields for value 1, value 2, and operator -->
+
+        <input type="number" id="value1" placeholder="Enter value 1">
+        <input type="text" id="operator" placeholder="Enter operator (+, -, *, /)">
+        <input type="number" id="value2" placeholder="Enter value 2">
+
+        <!-- Button to trigger calculation -->
+        <button onclick="calculate()">=</button>
+
+        <!-- Input field to display the result -->
+        <input type="text" id="result" readonly placeholder="Result will appear here">
+
+    </div>
+
+    <script src="calc.js"></script>
+
+</body>
+
+</html>
